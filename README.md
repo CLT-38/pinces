@@ -28,7 +28,19 @@ Câble l'Arduino avec le PC comme suit :
 
 - Prends un câble USB C côté Arduino et USB C ou USB A côté PC (en fonction des connecteurs que tu as à disposition sur le PC)
 
-### 
+### Partie logicielle
+
+- Crée un répertoire `pinces` sur le PC
+- Crée un fichier `pinces.ino` à l'intérieur du répertoire `pinces`. Attention le nom du fichier doit être le même que le nom du répertoire, par convention d'Arduino.
+- Double-clique sur `pinces.ino`
+- Colle le contenu du fichier [INO](https://github.com/CLT-38/pinces/blob/main/pinces.ino) dans `pinces.ino`
+- Clique sur `Select Board` pour choisir Arduino Uno R4
+![image](https://github.com/user-attachments/assets/c4b4a4d4-7515-4942-b770-386035f94e2c)
+- Clique sur ![image](https://github.com/user-attachments/assets/08234c2f-8302-4a5e-8e35-2fa07995c31a) pour compiler
+- Clique sur ![image](https://github.com/user-attachments/assets/9386f98e-c20c-41bd-9cd6-9018717c5b22) pour envoyer ton programme sur l'Arduino
+
+Tu dois voir un logo s'afficher dans la matrice de LED.
+Comment peux-tu régler l'angle d'ouverture de la LED en modifiant le programme ? Change la ligne de code qui va bien et renvoie le programme sur l'Arduino pour vérifier son bon fonctionnement.
 
 ## Illustrations
 
