@@ -12,4 +12,4 @@ Matériel requis :
 
 Logiciel requis :
 - Arduino IDE
-- le code INO
+- le code [INO](https://github.com/CLT-38/pinces/blob/main/pinces.ino)
